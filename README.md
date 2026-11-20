@@ -1,16 +1,82 @@
-# React + Vite
+# Mini CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple CRM application that I built to manage customer leads.
 
-Currently, two official plugins are available:
+The application allows users to add new leads, view existing leads, update their details, and delete leads when they are no longer needed.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## What I Built
 
-## React Compiler
+- Dashboard to view total leads and their status.
+- Add new customer leads.
+- Edit and delete lead details.
+- View individual lead information.
+- Search leads by name or email.
+- Filter leads based on status.
+- Navigate through leads using pagination.
+- Export lead details as a CSV file.
+- Switch between light and dark themes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- Tailwind CSS
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Setup
+
+First, clone the repository:
+
+```bash
+git clone https://github.com/Prashanth-banoth/mini-crm.git
+```
+
+Go to the project folder:
+
+```bash
+cd mini-crm
+```
+
+Install frontend packages:
+
+```bash
+npm install
+```
+
+Install backend packages:
+
+```bash
+cd backend
+npm install
+```
+
+Create a `.env` file inside the backend folder and add your MongoDB connection:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+```
+
+Start the backend:
+
+```bash
+npm run dev
+```
+
+Open another terminal in the main project folder and start the frontend:
+
+```bash
+npm run dev
+```
+
+## About This Project
+
+I built this project to practice React, backend API development, and connecting a frontend application with MongoDB.
+
+## GitHub
+
+https://github.com/Prashanth-banoth/mini-crm
+
+**Developed by Banoth Prashanth**
