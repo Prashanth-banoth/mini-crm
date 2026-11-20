@@ -18,7 +18,7 @@ const emptyForm = {
   status: 'New'
 }
 
-const API_URL = 'http://localhost:5000/api/leads'
+const API_URL = 'https://mini-crm-backend-xrsk.onrender.com/api/leads'
 
 const statusOptions = [
   'New',
